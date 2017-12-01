@@ -20,7 +20,7 @@ func randSeq(n int) string {
 }
 
 const spotifyClientID = "7b55bd86c0484c67b75e1cae230781be"
-const spotifyClientSecret = "30cb59cbb1de494b9d6574278c043358"
+const spotifyClientSecret = "OH YOU DUMMY"
 const spotifyRedirectURI = "http://localhost:8080/callback"
 
 func spotifyHandler(w http.ResponseWriter, r *http.Request) {
